@@ -1,0 +1,31 @@
+/* browser list  */
+ol.browser-list {
+	width: 100%;
+}
+ol.browser-list li {
+	display: inline-block;
+	width: 25%;
+	margin: 0 -2px;
+}
+
+ol.browser-list li img {
+	width: 100%;
+	border: none;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+ol.browser-list li a:hover img {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+/* profile-img */
+.profile-img {
+	float: right;
+	border: 1px solid #999;
+	box-shadow: 0 2px 8px black;
+	width: 99px;
+	height: 99px;
+	border-radius: 50px 50px;
+	overflow: hidden;
+}

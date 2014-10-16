@@ -1,0 +1,118 @@
+/* reset css BEGIN */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset css END */
+
+/* global settings BELOW */
+body {
+	background-image: url(paper_fibers.png);
+	background-attachment: fixed;
+	font-family: Ubuntu;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+a, a:hover, a:visited, a:focus {
+	color: #ff5599;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 1.4em;
+	margin: 0 0 1em 0;
+}
+
+p {
+	margin: .8em 0;
+	line-height: 1.4em;
+}
+
+ol.dot-list {
+	list-style: inherit;
+	padding-left: 1.5em;
+}
+
+li {
+	line-height: 1.4em;
+}
+
+#container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.article {
+	margin: 45px 0;
+	border: 1px solid #c5c5c5;
+	border-radius: 3px 3px;
+	padding: 20px;
+	background: #ffffff;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 10px #999;
+}
+
+.article.warning {
+	margin: 0;
+	background: #fdffaa;
+	background: rgba(253, 255, 170, 0.8);
+	box-shadow: 0 0 10px #893;
+}
+
+.footer {
+	border-top: 1px solid #ccc;
+	text-align: center;
+	font-size: 0.8em;
+	color: #999;
+}
